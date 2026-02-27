@@ -1,0 +1,65 @@
+Cross-Domain-Plant-Leaf-Disease-Detection-Using-Deep-Learning/
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# -----------------------
+# Jupyter Notebook
+# -----------------------
+.ipynb_checkpoints/
+
+# -----------------------
+# Model Weights
+# -----------------------
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pb
+
+# -----------------------
+# Dataset Files
+# -----------------------
+data/
+datasets/
+*.csv
+*.zip
+*.tar.gz
+
+# -----------------------
+# Logs
+# -----------------------
+logs/
+*.log
+runs/
+
+# -----------------------
+# Build / Distribution
+# -----------------------
+build/
+dist/
+*.egg-info/
+
+# -----------------------
+# IDE Files
+# -----------------------
+.vscode/
+.idea/
+
+# -----------------------
+# OS Files
+# -----------------------
+.DS_Store
+Thumbs.db
+touch .gitignore
